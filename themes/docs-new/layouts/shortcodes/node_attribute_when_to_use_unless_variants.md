@@ -4,31 +4,7 @@ of the attribute priority methods:
 
 -   `default_unless`
 
--   `set_unless` (`normal_unless` is an alias of `set_unless`; use
-    either alias to set an attribute with a normal attribute
-    precedence.)
-
-    <div class="admonition-note">
-
-    <p class="admonition-note-title">Note</p>
-
-    <div class="admonition-note-text">
-
-    This method was removed in Chef Client 14. Please use
-    `default_unless` or `override_unless` instead.
-
-
-    </div>
-
-    </div>
-
--   `override_unless`
-
-<div class="admonition-note">
-
-<p class="admonition-note-title">Note</p>
-
-<div class="admonition-note-text">
+-   `normal_unless`
 
 Use the `_unless` variants carefully (and only when necessary) because
 when they are used, attributes applied to nodes may become out of sync
