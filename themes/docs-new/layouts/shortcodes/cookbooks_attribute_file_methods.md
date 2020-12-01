@@ -6,7 +6,7 @@ same name:
 
 -   `default`
 
--   `normal` (or `set`, where `set` is an alias for `normal`)
+-   `normal`
 
 -   `_unless`
 
